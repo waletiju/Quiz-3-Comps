@@ -5,3 +5,10 @@ SELECT Name, IndepYear FROM country WHERE IndepYear = (SELECT Max(IndepYear) FRO
 #question 2
 
 INSERT INTO country (Code, Name, IndepYear, Population) VALUES ('TLS', 'East Timor', '2002', '1167242');
+
+#question 3
+
+INSERT INTO city (Name, CountryCode, District, Population) VALUES ('Baucau', 'TLS', 'Baucau', '14961');
+INSERT INTO city (Name, CountryCode, District, Population) VALUES ('Dili', 'TLS', 'Dili', '222323');
+
+
