@@ -1,0 +1,3 @@
+#question 1
+
+SELECT Name, IndepYear FROM country WHERE IndepYear = (SELECT Max(IndepYear) FROM country);
